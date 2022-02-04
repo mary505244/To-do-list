@@ -2,7 +2,7 @@ import React from 'react';
 import './index.scss';
 
 function TodoItem(props) {
-    const { data } = props;
+    const { data, openCheckModal } = props;
   
     return ( 
         <li className='todo-item'>
@@ -19,7 +19,10 @@ function TodoItem(props) {
                 {data.content}
             </span>
             <div className='btn-group'>
-                <button className='btn btn-primary'>查看</button>
+                <button 
+                className='btn btn-primary'
+                onClick={ () => openCheckModal(data.id) }
+                >查看</button>
                 <button className='btn btn-warning'>編輯</button>
                 <button className='btn btn-danger'>刪除</button>
             </div>
