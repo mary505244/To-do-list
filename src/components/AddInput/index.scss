@@ -18,7 +18,8 @@
         // display: block;
         width: 75%;
         height: 1.3rem;
-        border: dotted 1.2px rgb(216, 132, 160);
+        // border: dotted 1.2px rgb(216, 132, 160);
+        border: 2px solid rgb(240, 194, 221);
         // color: aquamarine;
         // border-radius: 20%;
         // font-size: 50rem;
@@ -34,6 +35,7 @@
         border: dotted 1.2px rgb(219, 152, 189);
         color: rgb(245, 233, 240);
         background-color: rgb(219, 152, 189);
+        cursor: pointer;
     }
 
     .btn-add:hover{
