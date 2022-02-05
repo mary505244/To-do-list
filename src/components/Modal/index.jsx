@@ -8,10 +8,10 @@ function Modal(props) {
     return ( 
         <Fragment>
             {isShowModal ? (
-                <div className='modal'>
-                    <div className='inner'>
-                        <div className='m-header'>{modalTitle}</div>
-                        <div className='content-wrapper'>
+                <div className='modal-wrapper'>
+                    <div className='modal-inner'>
+                        <div className='inner-header'>{modalTitle}</div>
+                        <div className='inner-content'>
                             {children}
                         </div>
                     </div>

@@ -1,0 +1,111 @@
+.todo-item{
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    // border: steelblue 2px solid;
+    width: 60%;
+    
+    height: 3rem;
+    margin: 0.3rem auto;
+    // background-color: steelblue;
+
+    .checkbox{
+        margin-right: 1rem;
+    }
+
+    .content{
+        // width: 10rem;
+        // border: steelblue 2px solid;
+        margin-right: 1rem;
+        letter-spacing: 0.05rem;
+        // flex: grow 2;
+        width: 20rem;
+        // height: 10rem;
+        font-size: 0.8rem;
+        overflow:hidden ;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+    }
+
+    .btn-group{
+        // width: 10rem;
+        // border: steelblue 2px solid;
+        
+        display: flex;
+        justify-content: space-evenly;
+        height: 1.5rem;
+
+        .btn{
+            margin-right: 10px;
+            width: 3rem;
+            font-size: .3rem;
+            letter-spacing: 0.1rem;
+            color: bisque;
+            border-radius: 10%;
+
+            // width: 15s%;
+            height: 1.5rem;
+            // border-radius: 10%;
+            // letter-spacing: 0.1rem;
+        }
+
+        .btn-check{
+            border: dotted 1.2px rgb(219, 152, 189);
+            color: rgb(245, 233, 240);
+            background-color: rgb(219, 152, 189);
+        }
+
+        .btn-check:hover{
+            background-color: #fff;
+            color:rgb(224, 125, 179);
+        }
+
+        .btn-edit{
+            border: dotted 1.2px rgb(230, 154, 104);
+            color: rgb(245, 233, 240);
+            background-color: rgb(230, 154, 104);
+        }
+
+        .btn-edit:hover{
+            background-color: #fff;
+            color:rgb(230, 154, 104);
+        }
+
+        .btn-remove{
+            border: dotted 1.2px rgb(248, 81, 81);
+            color: rgb(245, 233, 240);
+            background-color: rgb(248, 81, 81);
+        }
+
+        .btn-remove:hover{
+            background-color: #fff;
+            color:rgb(248, 81, 81);
+        }
+        
+    }
+    
+
+    }
+
+
+// [class^="todo-list__item"] {
+//     // box-shadow: 0 -1px 0 0 white, 0 -2px 0 0 #e6e6e6;
+//     height: 200px;
+//     // overflow: hidden;
+//     box-sizing: border-box;
+//     display: block;
+//     padding: 0 33px 0 78px;
+//     line-height: 80px;
+//     // text-transform: uppercase;
+//     // color: #af544f;
+//     letter-spacing: 2px;
+//     position: relative;
+//     background-repeat: no-repeat;
+//     background-position: 28px 16px;
+//     background-image: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/55353/box.svg');
+//   }
+//   .todo-list__item--completed {
+//     color: #16a085;
+//     background-image: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/55353/done.svg');
+//   }
+  

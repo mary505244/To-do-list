@@ -1,22 +1,22 @@
 .header{
-    position: fixed;
-    top:0;
-    left: 0;
-    width: 100%;
-    height: 0.44rem;
-    background-color: aquamarine;
-}
+    margin: auto;
+    width: 60%;
+    height: 3.5rem;
+    background-color: rgb(218, 127, 180);
+    position: relative;
 
-h1{
-    text-align: center;
-    line-height: .44rem;
-    font-size: .18rem;
-    color: blue;
-}
+    h1{
+        padding: 0.6rem 0;
+        text-align: center;
+        letter-spacing: 0.15rem;
+        font-size: 1.5rem;
+        color: rgb(243, 217, 228);
+    }
 
-.icon{
-    position: absolute;
-    top: .08rem;
-    right: .15rem;
-    color: brown;
+    .pen {
+        position: absolute;
+        width: 1.3rem;
+        top: 30%;
+        right: 5%;
+    }
 }

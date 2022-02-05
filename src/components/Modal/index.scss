@@ -1,4 +1,4 @@
-.modal{
+.modal-wrapper{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -11,10 +11,11 @@
     background-color: black;
 }
 
-.inner{
+.modal-inner{
     width: 2.5rem;
     background-color: #fff;
-    .m-header{
+
+    .inner-header{
         height: .38rem;
         background-color: blue;
         color:aquamarine;
@@ -23,7 +24,7 @@
         font-size: .16rem;
     }
 
-    .content-wrapper{
+    .inner-content{
         padding: .15rem;
     }
 }

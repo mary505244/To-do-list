@@ -1,5 +1,7 @@
 import React from 'react';
 import './index.scss';
+import pen from '../Header/imgs/pen.svg'
+
 
 function Header(props) {
 
@@ -7,12 +9,13 @@ function Header(props) {
 
     return ( 
         <div className='header'>
-            <h1>事件待辦</h1>
-            <span 
+            <h1>有什麼計畫？</h1>
+            {/* <span 
             className='icon'
             onClick={ openInput }
-            >&#43;
-            </span>
+            >  */}
+                <img className='pen' onClick={ openInput } src={pen} alt="pen"/>
+            {/* </span> */}
         </div>
      );
 }

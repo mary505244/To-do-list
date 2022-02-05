@@ -31,7 +31,7 @@ function AddInput(props) {
                     ref={inputRef}
                     />
                     <button
-                    className='btn btn-primary'
+                    className='btn-add'
                     // onClick={addItem(data)}>
                     onClick={submitValue}>
                     增加

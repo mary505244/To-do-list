@@ -1,27 +1,44 @@
 .input-wrapper{
     display: flex;
-    flex-direction: row;
-    position: fixed;
-    top: 0.44rem;
-    left: 0;
-    width: 100%;
-    height: 0.38rem;
-    padding: .04rem .1rem;
+    justify-content: space-around;
+    // flex-direction: row;
+    // position: fixed;
+    // top: 0.44rem;
+    // left: 0;
+    margin: 0 auto;
+    width: 60%;
+    height: 2.5rem;
+    padding: .5rem .5rem;
     box-sizing: border-box;
-    border-bottom: brown solid 1px;
-    background-color: red;
+    // border-bottom: rgb(90, 17, 185) solid 1px;
+    background-color: rgb(255, 223, 236);
 
     input {
-        flex:1;
-        display: block;
-        height: .3rem;
-        border: solid 1px palevioletred;
-        font-size: .14rem;
-        text-indent: .1rem;
+        // flex:1;
+        // display: block;
+        width: 75%;
+        height: 1.3rem;
+        border: dotted 1.2px rgb(216, 132, 160);
+        // color: aquamarine;
+        // border-radius: 20%;
+        // font-size: 50rem;
+        letter-spacing: 0.1rem;
+        // text-indent: 20%;
     }
     
-    button {
-        margin-left: .1rem;
+    .btn-add {
+        width: 15%;
+        height: 1.5rem;
+        border-radius: 10%;
+        letter-spacing: 0.1rem;
+        border: dotted 1.2px rgb(219, 152, 189);
+        color: rgb(245, 233, 240);
+        background-color: rgb(219, 152, 189);
+    }
+
+    .btn-add:hover{
+        background-color: #fff;
+        color:rgb(219, 152, 189);
     }
 }
 
