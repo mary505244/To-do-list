@@ -3,7 +3,7 @@ import { Fragment } from 'react/cjs/react.production.min';
 import './index.scss';
 
 function Modal(props) {
-    const { isShowModal, modalTitle, children } = props;
+    const { isShowModal, modalTitle, children, closeModal} = props;
 
     return ( 
         <Fragment>
@@ -11,6 +11,7 @@ function Modal(props) {
                 <div className='modal-wrapper'>
                     <div className='modal-inner'>
                         <div className='inner-header'>{modalTitle}</div>
+                        <div className='btn-close' onClick={ closeModal }>✘</div>
                         <div className='inner-content'>
                             {children}
                         </div>

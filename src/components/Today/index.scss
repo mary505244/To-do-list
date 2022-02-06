@@ -1,0 +1,31 @@
+.date-wrapper {
+    width: 60%;
+    margin: -1rem auto;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    color: rgb(218, 127, 180);
+
+  .date {
+    margin-bottom: -0.5rem;
+
+    .day {
+      display: inline-block;
+      font-size: 50px;
+      font-weight: 600;
+    }
+
+    span {
+      display: inline-block;
+      margin-left: 5px;
+
+      p {
+        line-height: 6px;
+      }
+    }
+  }
+  
+  .dayinword {
+    margin-left: 10px;
+  }
+}

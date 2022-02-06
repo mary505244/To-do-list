@@ -4,14 +4,40 @@
 }
 
 .comfirm-btn{
-    width: 100%;
-    margin-top: 4rem;
+    cursor: pointer;
+    margin: 0 11.5rem;
+    width: 5rem;
+    font-size: .3rem;
+    letter-spacing: 0.1rem;
+    border-radius: 10%;
+    height: 1.5rem;
+    border: dotted 1.2px rgb(219, 152, 189);
+    color: rgb(245, 233, 240);
+    background-color: rgb(219, 152, 189);
+}
+
+.comfirm-btn:hover{
+    background-color: #fff;
+    color:rgb(224, 125, 179);
 }
 
 .text-area{
-    width: 100%;
-    min-height: 1rem;
-    border: blue solid 1px;
-    padding: .05rem;
+    width: 90%;
+    min-height: 7rem;
+    border: rgb(202, 96, 141) dotted 2px;
+    letter-spacing: 0.1rem;
+    border-radius: 5px;
+    padding: .5rem;
+    margin-top: 0.7rem;
+    margin-left: 0.7rem;
+    background: rgb(247, 241, 243);
 
 }
+
+.text-area:focus {
+    outline: none !important;
+    border:2px dotted rgb(202, 96, 141) ;
+    box-shadow: 0 0 10px #c1c6caa6;
+    background: rgb(255, 255, 255);
+  }
+

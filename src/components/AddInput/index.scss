@@ -26,6 +26,13 @@
         letter-spacing: 0.1rem;
         // text-indent: 20%;
     }
+
+    input:focus {
+        outline: none !important;
+        border: 2px solid rgb(240, 194, 221);
+        box-shadow: 0 0 10px #c1c6caa6;
+        background: rgb(255, 255, 255);
+      }
     
     .btn-add {
         width: 15%;
@@ -43,4 +50,9 @@
         color:rgb(219, 152, 189);
     }
 }
+
+
+
+
+
 

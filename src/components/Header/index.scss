@@ -7,17 +7,26 @@
 
     h1{
         padding: 0.6rem 0;
+        margin-left: 1rem;
         text-align: center;
         letter-spacing: 0.15rem;
         font-size: 1.5rem;
         color: rgb(243, 217, 228);
+        span{
+            font-size: 1rem;
+            padding: 0.5rem;
+        }
     }
 
-    .pen {
+    .add {
         cursor: pointer;
         position: absolute;
-        width: 1.3rem;
+        width: 1.5rem;
         top: 30%;
-        right: 5%;
+        right: 1rem;
+    }
+
+    .add:hover {
+        opacity:0.5;
     }
 }

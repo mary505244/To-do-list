@@ -2,11 +2,9 @@
     display:flex;
     justify-content: space-around;
     align-items: center;
-    // border: steelblue 2px solid;
     width: 60%;
     height: 3rem;
     margin: 0.3rem auto;
-    // background-color: steelblue;
 
     .checkbox {
         cursor: pointer;
@@ -37,115 +35,55 @@
         background-color: rgb(231, 158, 186);
         animation: bounce 300ms ease-in-out forwards;
     }
-    // input[type=checkbox]:checked ~ label {
-    // 	text-decoration: line-through;
-    // }
     
     @keyframes bounce {
         0% {transform: scale(1, 1);}
         70% {transform: scale(1.1, 1.1);}
         100% {transform: scale(1, 1);}
-    }
-    // label {
-    // 	position: relative;
-    // 	left: 50px;
-    // 	top: 18px;
-    // }
-    // input[type=text] {
-    // 	border: 2px solid rgb(240, 194, 221);
-    // 	width: 250px;
-    // 	height: 30px;
-    // 	visibility: visible;
-    // 	border-radius: 5px;
-    // 	position: relative;
-    // 	left: 50%;
-    // 	top: 20px;
-    // 	transform: translateX(-50%);
-    // }
-    // #button {
-    // 	font-family: 'Josefin Sans', sans-serif;
-    // 	font-weight: bolder;
-    // 	font-size: 40px;
-    // 	color: black;
-    // 	position: relative;
-    // 	left: 210px;
-    // 	top: -18px;
-    // }
-    
+    } 
 
     .content{
-        // width: 10rem;
-        // border: steelblue 2px solid;
         margin-right: 1rem;
         letter-spacing: 0.05rem;
-        // flex: grow 2;
         width: 20rem;
-        // height: 10rem;
         padding: 0.5rem;
         font-size: 0.8rem;
         overflow:hidden ;
         text-overflow: ellipsis;
         white-space: nowrap;
+        font-weight: bold;
+        // background-color: steelblue;
     }
 
     .btn-group{
-        // width: 10rem;
-        // border: steelblue 2px solid;
-        
+
         display: flex;
         justify-content: space-evenly;
         height: 1.5rem;
 
         .btn{
             cursor: pointer;
-            margin-right: 10px;
-            width: 3rem;
-            font-size: .3rem;
-            letter-spacing: 0.1rem;
-            color: bisque;
-            border-radius: 10%;
-
-            // width: 15s%;
+            width: 2.5rem; 
             height: 1.5rem;
-            // border-radius: 10%;
-            // letter-spacing: 0.1rem;
         }
 
-        .btn-check{
-            border: dotted 1.2px rgb(219, 152, 189);
-            color: rgb(245, 233, 240);
-            background-color: rgb(219, 152, 189);
-        }
+        .btn:hover{
+            opacity:0.5;
 
-        .btn-check:hover{
-            background-color: #fff;
-            color:rgb(224, 125, 179);
-        }
-
-        .btn-edit{
-            border: dotted 1.2px rgb(230, 154, 104);
-            color: rgb(245, 233, 240);
-            background-color: rgb(230, 154, 104);
-        }
-
-        .btn-edit:hover{
-            background-color: #fff;
-            color:rgb(230, 154, 104);
-        }
-
-        .btn-remove{
-            border: dotted 1.2px rgb(248, 81, 81);
-            color: rgb(245, 233, 240);
-            background-color: rgb(248, 81, 81);
-        }
-
-        .btn-remove:hover{
-            background-color: #fff;
-            color:rgb(248, 81, 81);
-        }
-        
+        }       
       }
     }
+
+    .mark-todo-item{
+        max-width: 750px;
+        background-color: rgba(255, 204, 170, 0.979);
+        border-radius: 20px;
+
+    }
+
+    
+
+   
   
 
 

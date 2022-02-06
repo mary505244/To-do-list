@@ -1,24 +1,25 @@
 import React from 'react';
 import './index.scss';
-import pen from '../Header/imgs/pen.svg'
+import add from '../Header/imgs/add.svg'
 
 
 function Header(props) {
 
-    const { openInput } = props;
+    const { openInput, completedCount, totalCount } = props;
 
     return ( 
         <div className='header'>
-            <h1>有什麼計畫？</h1>
-            {/* <span 
-            className='icon'
-            onClick={ openInput }
-            >  */}
-                <img className='pen' onClick={ openInput } src={pen} alt="pen"/>
-            {/* </span> */}
+            <h1>有什麼計畫？
+                <span>{completedCount}/{totalCount}已完成</span>
+            </h1>
+            <img className='add' onClick={ openInput } src={add} alt="add"/>   
         </div>
      );
 }
 
 export default Header;
+
+
+
+
 

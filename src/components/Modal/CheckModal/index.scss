@@ -1,9 +1,25 @@
-.topic{
-    font-size: .14rem;
-    margin-bottom: .1rem;
+.title{
+    font-size: 0.9rem;
+    margin-top: 0rem;
+    letter-spacing: 0.1rem;
+    font-weight: bold;
+    color: rgb(190, 81, 117);
+
+    img{
+        width: 1.5rem;
+        margin: 0.3rem;
+        margin-bottom: -0.2rem;
+    }
 }
 
-.comfirm-btn{
-    width: 100%;
-    margin-top: .4rem;
+.content{
+    font-size: 0.8rem;
+    font-weight: normal;
+    color: rgb(158, 68, 98);
+
+}
+
+.btn-confirm{
+    width: 20%;
+    margin: 0.5rem 10rem;
 }

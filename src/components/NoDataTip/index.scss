@@ -1,9 +1,18 @@
-.nodatatip-wrapper{
+.nodata-wrapper{
     display: flex;
-    justify-content: center;
+    flex-direction:column;
     align-items: center;
-    height: 80vh;
-    margin-top: .82rem;
-    font-size: .16rem;
-    color: blue;
+    position: relative;
+
+    .title{
+        font-size: 1.2rem;
+        letter-spacing: 0.2rem;
+        font-weight: bold;
+        position:absolute;
+        top:1.5rem;
+    }
+
+    .icon{
+        width: 25rem;  
+    }
 }
